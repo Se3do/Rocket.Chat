@@ -1,4 +1,4 @@
-import { parse } from '../src';
+import { parse } from '../src/grammar.pegjs';
 
 const plain = (value: string) => ({ type: 'PLAIN_TEXT' as const, value });
 

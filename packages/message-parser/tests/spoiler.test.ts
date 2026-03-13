@@ -1,4 +1,4 @@
-import { parse } from '../src';
+import { parse } from '../src/grammar.pegjs';
 import { bold, emoji, italic, link, mentionChannel, mentionUser, paragraph, plain, spoiler, strike } from './helpers';
 
 describe('spoiler parsing', () => {

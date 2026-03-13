@@ -10,7 +10,7 @@
 
 import { Bench, type Task } from 'tinybench';
 
-import { parse } from '../src';
+import { parse } from '../src/grammar.pegjs';
 import type { Options } from '../src';
 
 // ── Options presets ────────────────────────────────────────────────────────

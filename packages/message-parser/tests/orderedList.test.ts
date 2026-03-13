@@ -1,4 +1,4 @@
-import { parse } from '../src';
+import { parse } from '../src/grammar.pegjs';
 import { bold, plain, orderedList, listItem, emoji } from './helpers';
 
 test.each([
