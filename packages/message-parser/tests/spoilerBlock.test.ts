@@ -1,4 +1,4 @@
-import { parse } from '../src';
+import { parse } from '../src/grammar.pegjs';
 import { lineBreak, paragraph, plain, spoilerBlock } from './helpers';
 
 describe('block spoiler parsing', () => {

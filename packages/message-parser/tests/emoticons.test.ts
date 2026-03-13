@@ -1,4 +1,4 @@
-import { parse } from '../src';
+import { parse } from '../src/grammar.pegjs';
 import { bigEmoji, paragraph, plain, emoticon } from './helpers';
 
 test.each([

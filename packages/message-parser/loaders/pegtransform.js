@@ -1,8 +1,8 @@
-const pegjs = require('peggy');
+const peggy = require('peggy');
 
 module.exports = {
 	process: (content) => ({
-		code: pegjs.generate(content, {
+		code: peggy.generate(content, {
 			output: 'source',
 			format: 'commonjs',
 		}),

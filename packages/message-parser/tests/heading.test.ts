@@ -1,4 +1,4 @@
-import { parse } from '../src';
+import { parse } from '../src/grammar.pegjs';
 import { heading, lineBreak, mentionChannel, paragraph, plain } from './helpers';
 
 test.each([
